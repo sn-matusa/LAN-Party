@@ -1,9 +1,7 @@
 	Această temă m-a ajutat mult în ințelegerea structurilor de date și implementarea
 acestora în clase. Am încercat pe cât mai putut să lucrez cât mai modularizat, deși cred
 că era loc de mult mai bine.
-	Am reusit sa implementez doar primele 4 cerinte. Ultima cerinta, cea cu arborele binar
-AVL, nefiind terminata. Am intampinat o eroare la setarea inaltimii nodurilor, astfel 
-neputand sa afisez nodurile cerute (cele de pe nivelul 2).
+
 	Cerinta 1.
 	Pentru prima cerinta m-am folosit de 3 clase (lista, Team si Player). Clasa Player am 
 agregat-o din Team, iar pe aceasta din lista. Am creat o functie in main in care citeam din
@@ -38,10 +36,6 @@ insereaza mai departe in arbore astfel incat la final cand fac afisarea cu void 
 arborele sa fie ordonat descrescator. Iau in considerare si cand echipele au acelasi puntaj, si
 compar numele echipelor. Agoritmul este unul de tip recursiv. Mai folosesc mici metode pentru a seta
 sau a returna echipa dintr-un nod.
-	Cerinta 5.
-	Nu am reusit sa finalizez acest task, insa las codul pe care am reusit sa-l scriu pana acum. Ideea
-mea era sa iau o clasa nod_avl si sa inserez, din aceeasi lista ca la punctul anterior nodurile ordonate
-descrescator si in acelasi timp sa setez intaltimea nodurilor arborelui, totodata echilibrandu-l.
 
 	Cele mai mari dificultati pe care le-am gasit au fost la alocarea nodurilor in diversele structuri de date,
 pentru ca uneori nu reuseam sa salvez acele noduri, ele fiind pastrate doar in interiorul functiei din
